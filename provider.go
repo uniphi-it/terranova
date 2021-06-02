@@ -29,7 +29,6 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform/internal/plans/objchange"
 	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
 	"github.com/hashicorp/terraform/internal/tfdiags"
 	"github.com/hashicorp/terraform-plugin-sdk/"
 	"github.com/zclconf/go-cty/cty"
