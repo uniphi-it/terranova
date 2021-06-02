@@ -3,7 +3,8 @@ package terranova
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
+	//"github.com/hashicorp/terraform/addrs"
+	"github.com/hashicorp/terraform-plugin-sdk/"
 	"github.com/hashicorp/terraform/backend/local"
 	"github.com/hashicorp/terraform/plans"
 )
