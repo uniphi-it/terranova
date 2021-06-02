@@ -1,4 +1,4 @@
-module github.com/uniphi/terranova
+module github.com/uniphi-it/terranova
 
 go 1.15
 

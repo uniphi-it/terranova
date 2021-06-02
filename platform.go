@@ -25,7 +25,7 @@ import (
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/uniphi/terranova/logger"
+	"github.com/uniphi-it/terranova/logger"
 	"github.com/terraform-providers/terraform-provider-null/null"
 )
 
