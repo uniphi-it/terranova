@@ -18,7 +18,6 @@ package terranova
 
 import (
 	"sync"
-
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/backend/local"
 	"github.com/hashicorp/terraform/providers"
@@ -26,10 +25,8 @@ import (
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/johandry/terranova/logger"
+	"github.com/uniphi/terranova/logger"
 	"github.com/terraform-providers/terraform-provider-null/null"
-	"github.com/hashicorp/terraform-plugin-sdk/helper/customdiff"
-	""
 )
 
 // Platform is the platform to be managed by Terraform

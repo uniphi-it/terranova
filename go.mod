@@ -1,9 +1,8 @@
-module github.com/johandry/terranova
+module github.com/uniphi/terranova
 
 go 1.15
 
 require (
-	github.com/hashicorp/terraform v0.14.10
-	github.com/terraform-providers/terraform-provider-null
-	github.com/zclconf/go-cty v1.2.1
+	github.com/terraform-providers/terraform-provider-null v1.0.0
+	github.com/zclconf/go-cty v1.8.3
 )
