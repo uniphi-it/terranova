@@ -26,7 +26,7 @@ import (
 	/*"github.com/hashicorp/terraform-plugin-sdk/internal/configs/configschema"
 	"github.com/hashicorp/terraform-plugin-sdk/internal/configs/hcl2shim"*/
 	"github.com/hashicorp/terraform-plugin-sdk/"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform/internal/plans/objchange"
 	"github.com/hashicorp/terraform/providers"
 	"github.com/hashicorp/terraform/terraform"
