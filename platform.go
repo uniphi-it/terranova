@@ -19,7 +19,7 @@ package terranova
 import (
 	"sync"
 	"github.com/hashicorp/terraform/internal/addrs"
-	"github.com/hashicorp/terraform/backend/local"
+	"github.com/hashicorp/terraform/internal/backend/local"
 	"github.com/hashicorp/terraform/providers"
 	"github.com/hashicorp/terraform/provisioners"
 	"github.com/hashicorp/terraform/states"

@@ -3,10 +3,9 @@ package terranova
 import (
 	"fmt"
 
-	//"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform-plugin-sdk/"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/hashicorp/terraform/internal/addrs"
+	"github.com/hashicorp/terraform/internal/backend/local"
+	"github.com/hashicorp/terraform/internal/plans"
 )
 
 // Stats encapsulate the statistics of changes to apply or applied
