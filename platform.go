@@ -28,6 +28,8 @@ import (
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/johandry/terranova/logger"
 	"github.com/terraform-providers/terraform-provider-null/null"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/customdiff"
+	""
 )
 
 // Platform is the platform to be managed by Terraform
