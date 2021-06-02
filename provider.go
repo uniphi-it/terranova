@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
+	"github.com/hashicorp/terraform-plugin-sdk/configs/configschema"
+	"github.com/hashicorp/terraform-plugin-sdk/configs/hcl2shim"
 	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/plans/objchange"
+	"github.com/hashicorp/terraform/internal/plans/objchange"
 	"github.com/hashicorp/terraform/providers"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/hashicorp/terraform/tfdiags"
