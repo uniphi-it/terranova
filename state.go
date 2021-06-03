@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/hashicorp/terraform/internal/states/statemgr"
 
-	"github.com/hashicorp/terraform/states/statefile"
+	"github.com/hashicorp/terraform/internal/states/statefile"
 )
 
 // WriteState takes a io.Writer as input to write the Terraform state

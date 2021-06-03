@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/hashicorp/terraforminternal/configs/configschema"
-	"github.com/hashicorp/terraforminternal/configs/hcl2shim"
+	"github.com/hashicorp/terraform/internal/configs/configschema"
+	"github.com/hashicorp/terraform/internal/configs/hcl2shim"
 	"github.com/hashicorp/terraform/internal/plans/objchange"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/hashicorp/terraform/internal/providers"
 	"github.com/hashicorp/terraform/internal/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
